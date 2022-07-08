@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.projectSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* background-color: rebeccapurple; */
+    background-color: black;
+    margin: -5rem 0 0rem 0;
+    height: 100vh;
+    padding-top: 8rem;
+}
+
+.projectSection>h2 {
+    margin-bottom: 2rem;
+    /* background-color: red; */
+    font-size: 3rem;
+    color: #ffffff;
+    
+}
+
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    /* justify-content: center; */
+    background-color: rgb(24, 21, 21);
+    
+}
+
+.projects > .project{
+    margin: 1.2rem;
+    min-width: 20rem;
+    min-height: 13rem;
+    position: relative;
+}
+
+.ProjectImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.projectDetails{
+
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    min-width: 20rem;
+    min-height: 13rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.75s;
+
+    backdrop-filter: blur(5px);
+}
+
+.projectDetails:hover{
+    opacity: 1;
+}
+
+.projectDetails > .projectTitle{
+    font-size: 2.25rem;
+}
+
+.projectBtn{
+    color: #ffffff;
+}
+.css-kpm0tx-MuiButtonBase-root-MuiButton-root{
+    color: #ffffff !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+}
+
+@media (min-width:900px) {
+    .projects > .project{
+        margin: 1.2rem;
+        min-width: 19rem;
+        min-height: 13rem;
+    }
+}
+
+@media (min-width:800px) {
+    .projects > .project{
+        margin: 1.2rem;
+        min-width: 19rem;
+        min-height: 13rem;
+    }
+}
+
+@media (min-width:700px) {
+
+    /* .projectSection>h2 {
+        margin-top: 5rem;
+    }
+
+    .projectSection {
+        margin-top: 5rem;
+    } */
+
+    .projects > .project{
+        margin: 1.2rem;
+        min-width: 20rem;
+        min-height: 13rem;
+    }
+    .projects {
+        width: 90%;
+    }
+}
+
+@media (min-width:540px) {
+    .projects{
+        justify-content: center;
+    }
+}

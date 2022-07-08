@@ -1,0 +1,30 @@
+
+
+.nav {
+    /* position: relative; */
+    position: fixed;
+    overflow: hidden;
+    /* height: 90px; */
+    width: 100%;
+    top: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+.css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    width: 30%;
+}
+
+/* .navTabLink{
+    color: inherit;
+    
+} */
+
+.css-cjctlb-MuiButtonBase-root-MuiTab-root{
+    font-weight: 600 !important;
+}
+
+a:hover{
+    color: inherit !important;
+}

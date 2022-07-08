@@ -1,0 +1,120 @@
+.introMain{
+    background: rgb(0, 0, 0);
+    height: 100vh;
+    /* margin-top: 10rem; */
+    margin-bottom: 3rem;
+    /* margin-top: 10rem; */
+    padding-top: 8rem;
+}
+
+/* .introMain::before{
+    content: "";
+    height: 10rem;
+    color: red;
+} */
+
+.introsection {
+    /* width: 100%; */
+    width: 90%;
+    margin: auto;
+    /* height: 80.4vh; */
+    /* height: 80%; */
+    /* margin-bottom: 1rem; */
+    padding: 4rem;
+    display: flex;
+    /* margin-bottom: 2rem; */
+    background-color: rgb(24, 21, 21);
+    /* background-color: red; */
+    /* padding-top: 5rem; */
+}
+
+
+.leftDiv {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 50%;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    /* float: left; */
+    padding-left: 10rem;
+    /* line-height: 1cm; */
+    /* margin-bottom: 1rem; */
+}
+
+.leftDiv>.leftDiv_1 {
+    font-weight: 600;
+    color: rgb(63, 55, 55);
+    color: white;
+}
+
+.leftDiv>.leftDiv_2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.leftDiv>.leftDiv_2 spam {
+    color: red;
+    font-weight: 700;
+    font-family: cursive;
+}
+
+.leftDiv>.leftDiv_3 {
+    font-weight: 600;
+    color: rgb(63, 55, 55);
+    color: white;
+}
+
+.rightDiv {
+    width: 50%;
+    /* height: 100%; */
+    /* background-color: tomato; */
+}
+
+.rightDiv>img {
+    width: 15rem;
+    margin-top: 3rem;
+    margin: 2rem 0 0 2rem;
+
+}
+
+@media (max-width:920px) {
+    .introsection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rightDiv{
+        width: auto;
+    }
+
+    .rightDiv>img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* width: 50%; */
+        width: 15rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .leftDiv {
+        padding: 0;
+        flex-direction:row;
+    }
+
+    .leftDiv_2 {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+    }
+}
+
+@media (max-width:325px) {
+    .rightDiv>img {
+        width: 12rem;
+    }
+}
