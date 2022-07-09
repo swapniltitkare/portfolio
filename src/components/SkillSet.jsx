@@ -1,12 +1,12 @@
 const SkillSet = [
     {
       name: "HTML",
-      percentage: 70,
+      percentage: 80,
       id:'html',
     },
     {
       name: "CSS",
-      percentage: 70,
+      percentage: 60,
       id:'css',
     },
     {
@@ -16,27 +16,27 @@ const SkillSet = [
     },
     {
       name: "React",
-      percentage: 70,
+      percentage: 80,
       id:'react',
     },
     {
       name: "Python",
-      percentage: 70,
+      percentage: 65,
       id:'python',
     },
     {
       name: "C",
-      percentage: 70,
+      percentage: 65,
       id:'c',
     },
     {
       name: "MongoDB",
-      percentage: 70,
+      percentage: 80,
       id:'mongodb',
     },
     {
       name: "Git",
-      percentage: 70,
+      percentage: 80,
       id:'git',
     },
   ];
