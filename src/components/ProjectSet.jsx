@@ -4,36 +4,18 @@ const ProjectSet = [
         description:'fdkds jk fdgksdg sfkdg ksd kdflkdgn kldg',
         link:'fsfsdfsd',
         projectImg : 'chatter.png',
-        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website'
+        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website',
+        projectLiveLink:'',
     },
     {
-        name:'Chatter',
+        name:'Weather App',
         description:'fdkds jk fdgksdg sfkdg ksd kdflkdgn kldg',
         link:'fsfsdfsd',
-        projectImg : 'chatter.png',
-        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website'
+        projectImg : 'weatherApp.png',
+        projectLink : 'https://github.com/swapniltitkare/weatherapp',
+        projectLiveLink : 'https://swapniltitkare.github.io/weatherapp/',
     },
-    {
-        name:'Chatter',
-        description:'fdkds jk fdgksdg sfkdg ksd kdflkdgn kldg',
-        link:'fsfsdfsd',
-        projectImg : 'chatter.png',
-        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website'
-    },
-    {
-        name:'Chatter',
-        description:'fdkds jk fdgksdg sfkdg ksd kdflkdgn kldg',
-        link:'fsfsdfsd',
-        projectImg : 'chatter.png',
-        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website'
-    },
-    {
-        name:'Chatter',
-        description:'fdkds jk fdgksdg sfkdg ksd kdflkdgn kldg',
-        link:'fsfsdfsd',
-        projectImg : 'chatter.png',
-        projectLink : 'https://github.com/swapniltitkare/Chatter-Video-Chat-Website'
-    },
+
 
 ]
 export default ProjectSet;
